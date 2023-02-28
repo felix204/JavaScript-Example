@@ -18,12 +18,14 @@
                     <div class="card-body">
                         <div class="input-group">
                             <input type="text" id="txtItem" class="from-control" title="title">
-                            <button class="btn btn-outline-secondary" type="button">Add</button>
+                            <button class="btn btn-outline-secondary" id="btnCreate" type="button">Add</button>
                         </div>
                     </div>
                 </div>
                 <div class="card m-3">
-                    <div class="card-header">My List</div>
+                    <div class="card-header">My List
+                        <button id="deleteAll" class="btn btn-danger btn-small d-none">Tümünü Sil</button>
+                    </div>
                     <ul id="myList" class="lis-group list-group">
                         
                     </ul>
